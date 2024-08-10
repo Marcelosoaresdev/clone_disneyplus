@@ -14,7 +14,7 @@
 
             &__question {
                 color: #fff;
-                font-size: 20px;
+                font-size: 17px;
                 padding: 24px;
                 display: block;
                 cursor: pointer;
@@ -29,6 +29,11 @@
                     display: flex;
                     align-items: center;
                     font-size: 40px;
+
+                    @media (max-width: 768px) {
+                        font-size: 30px;
+                        right: 20px;
+                    }
                 }
             }
 
